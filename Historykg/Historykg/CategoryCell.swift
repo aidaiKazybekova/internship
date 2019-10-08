@@ -2,21 +2,23 @@
 //  CategoryCell.swift
 //  Historykg
 //
-//  Created by Декс on 10/3/19.
+//  Created by Декс on 10/4/19.
 //  Copyright © 2019 Dex. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
-class CatCell: UITableViewCell{
-    
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+class CategoryCell: UITableViewCell {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
     }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
     }
-    
+
 }
